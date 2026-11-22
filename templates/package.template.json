@@ -1,0 +1,17 @@
+{
+  "name": "penpen-gameplus-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "start": "node build.js && node tools/serve.js",
+    "check:t1": "node build.js && node tools/checks/layout-check.js && node tools/checks/layer-check.js && node tools/checks/smoke-check.js",
+    "check:perf": "node tools/checks/perf-check.js 1200 2",
+    "check:shot": "node tools/checks/shotdiff.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "playwright": "^1.49.0"
+  }
+}

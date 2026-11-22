@@ -1,0 +1,13 @@
+{
+  "perf": {
+    "cpu1x": { "p95Max": 4.0, "over16Max": 0 },
+    "cpu2x": { "p95Max": 10.0, "over16Max": 0 },
+    "default": { "p95Max": 10.0, "over16Max": 0 }
+  },
+  "ledger": {
+    "drawCallsMax": 120
+  },
+  "shotdiff": {
+    "maxPctAboveCtrl": 0.5
+  }
+}
